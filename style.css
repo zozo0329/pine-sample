@@ -1,0 +1,89 @@
+body {
+    margin: 0px;
+    background-color: #8cf58c;
+    font-family: didact;
+}
+
+.header-section {
+    background-color: #29b929;
+    padding: 1px;
+    color: white;
+}
+.header-section h1 {
+    margin-left: 20px;
+    font-size: 40px;
+    transition: 0.15s;
+}
+.header-section h1:hover {
+    color: #000000;
+}
+
+/*
+        MAIN SECTION
+*/
+
+.main-section {
+    background-color: white;
+    margin: 120px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+    height: 300px;
+    box-shadow: 2px 2px 10px black;
+}
+.main-section h1 {
+    margin: 10px;
+}
+
+.main-section h1{
+    color: #29b929;
+    text-shadow: 1px 1px 3px black;
+}
+
+.first-section #email {
+    height: 30px;
+    width: 190px;
+    margin-bottom: 5px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.first-section #password {
+    height: 30px;
+    width: 190px;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.first-section #login {
+    background-color: #29b929;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    transition: 0.15s;
+    font-weight: bold;
+}
+#login:hover {
+    opacity: 0.7;
+}
+.first-section a {
+    text-decoration: none;
+    color: #29b929;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.15s;
+    font-family: didact;
+}
+.first-section a:hover {
+    color: #0a380a;
+
+}
