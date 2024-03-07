@@ -56,8 +56,51 @@ body {
 .login-section {
     text-align: center;
     background-color: white;
+    padding: 50px;
 }
 .login-section h1 {
     color: #29b929;
+    font-size: 50px;
+}
+.login-section #email {
+    font-family: didact;
+    background-color: #ffffff;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.login-section #password {
+    font-family: didact;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 15px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+.login-section #login {
+    font-family: didact;
+    height: 50px;
+    width: 30%;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: #8cf58c;
+    border: none;
+    box-shadow: 2px 4px 10px rgb(73, 73, 73);
+    cursor: pointer;
+    transition: 0.15s;
 
+}
+#login:hover {
+    background-color: #29b929;
+    color: white;
+}
+
+.first-section a {
+    color: #29b929;
+    font-weight: bold;
+    cursor: pointer;
 }
