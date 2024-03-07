@@ -39,7 +39,10 @@ body {
     color: #29b929;
     text-shadow: 1px 1px 3px black;
 }
-
+.first-section {
+    display: inline-flex;
+    flex-direction: column;
+}
 .first-section #email {
     height: 30px;
     width: 190px;
@@ -53,7 +56,6 @@ body {
 .first-section #password {
     height: 30px;
     width: 190px;
-    margin-bottom: 20px;
     border-radius: 100px;
     font-weight: bold;
     font-size: 14px;
@@ -63,8 +65,8 @@ body {
 .first-section #login {
     background-color: #29b929;
     color: white;
-    padding: 5px;
-    width: 120px;
+    height: 30px;
+    width: 190px;
     font-size: 16px;
     border-radius: 100px;
     border: none;
