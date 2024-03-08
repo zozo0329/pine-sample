@@ -24,83 +24,71 @@ body {
 
 .main-section {
     font-family: didact;
+    padding: 50px;
     display: flex;
     gap: 2rem;
+    justify-content: center;
+    
 }
 .main-section > * {
     flex-basis: 50%;
 }
-/*
-    LOGO SECTION
-*/
 .logo-section {
     background-color: white;
-    text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
+
 .logo-section img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 250px;
+    text-align: center;
     border-radius: 50%;
+    float: left;
+    margin: 20px;
 }
-.logo-section h1{
-    color: #287947;
-    font-size: 60px;
-}
-.pine {
+.logo-section h1 {
+    font-size: 50px;
     color: #29b929;
 }
-/*
-    LOGIN SECTION
-*/
+.pine {
+    color: #287943;
+}
 .login-section {
-    text-align: center;
     background-color: white;
-    padding: 50px;
+    padding: 20px;
+    text-align: center;
 }
 .login-section h1 {
     color: #29b929;
-    font-size: 50px;
 }
-.login-section #email {
-    font-family: didact;
+.first-section #email{
     background-color: #ffffff;
-    height: 50px;
-    width: 100%;
-    font-size: 18px;
-    padding-left: 15px;
+    color: white;
     font-weight: bold;
+    padding: 10px;
+}
+.first-section #password {
+    background-color: #ffffff;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+#email,#password {
     border-radius: 50px;
 }
-.login-section #password {
-    font-family: didact;
-    height: 50px;
-    width: 100%;
-    font-size: 18px;
-    padding-left: 15px;
+.first-section #login {
+    padding: 10px;
     font-weight: bold;
-    border-radius: 50px;
-}
-.login-section #login {
-    font-family: didact;
-    height: 50px;
-    width: 30%;
-    font-weight: bold;
-    border-radius: 50px;
-    background-color: #8cf58c;
+    border-radius: 20px;
+    width: 100px;
+    background-color: #287943;
+    color: white;
     border: none;
-    box-shadow: 2px 4px 10px rgb(73, 73, 73);
     cursor: pointer;
-    transition: 0.15s;
-
+    transition: 0,15s;
 }
 #login:hover {
-    background-color: #29b929;
-    color: white;
-}
-
-.first-section a {
-    color: #29b929;
-    font-weight: bold;
-    cursor: pointer;
+    color: #287943;
+    background-color: #41fd80;
+    transition: 0.15s;
 }
