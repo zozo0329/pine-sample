@@ -38,6 +38,9 @@ body {
     font-weight: 900;
     color: #ffffff;
 }
+.pine {
+    color: #00cf0a;
+}
 .icon {
     transition: 0.15s;
 }
