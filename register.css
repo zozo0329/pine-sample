@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #034d03;
+}
+/*
+    HEADER-SECTION
+*/
+.header-section {
+    background-color: #000000;
+    padding: 1px;
+    padding-left: 20px;
+}
+.header-section h1 {
+    color: white;
+}
+/*
+    Maib Section
+*/
+.main-section {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: space-around;
+}
+/*
+    Title
+*/
+.title {
+    padding: 50px;
+}
+.title h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #ffffff;
+}
+.title h2 {
+    color: white;
+}
+/*
+    Form-section
+*/
+.form {
+    background-color: white;
+    padding: 100px;
+    border-radius: 2%;
+    display: flex;
+    flex-direction: column;
+}
+#username,
+#email,
+#password,
+#number {
+    background-color: black;
+    color: white;
+    padding: 13px;
+    font-weight: bold;
+    border-radius: 50px;
+}
+#register {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 11px;
+    border-radius: 50px;
+}
+
+/*
+    MQ for responsive design
+*/
+
+@media (max-height: 1250px) {
+    .header-section {
+        text-align: start;
+    }
+    .title {
+        text-align: center;
+    }
+}
