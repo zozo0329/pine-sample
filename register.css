@@ -43,13 +43,17 @@ body {
 */
 .form {
     background-color: white;
-    padding: 100px;
+    padding: 70px;
     border-radius: 2%;
     display: flex;
     flex-direction: column;
 }
 .form h1 {
     text-align: center;
+    background-color: #034d03;
+    color: white;
+    padding: 40px;
+    border-radius: 250px;
 }
 .form h1{
     font-size: 50px;

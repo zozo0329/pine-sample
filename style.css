@@ -85,6 +85,11 @@ body {
     transition: 0.15s;
 }
 
+#register:active {
+    transition: 0.15s;
+    opacity: 0.4;
+}
+
 #or {
     font-weight: bold;
     font-size: 10px;
